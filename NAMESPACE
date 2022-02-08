@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(genlasso,genlasso)
+importFrom("stats", "as.formula", "cov2cor", "lm")
+import(ggplot2, cvCovEst, glmnet, MASS)
